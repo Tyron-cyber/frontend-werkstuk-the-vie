@@ -1,0 +1,203 @@
+@font-face{
+  font-family: "poppins";
+  src: url(./fonts/Poppins-Regular.ttf);
+  font-family: "poppins-bold";
+  src: url(./fonts/Poppins-Bold.ttf);
+
+}
+::-webkit-scrollbar{width:4px;border-left:0px solid #ffffff;}
+::-webkit-scrollbar-thumb{background-color:#4f4f61fd;}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: poppins;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h4{
+  font-size:small ;
+}
+*{
+  margin:0
+}
+.main{
+  width: 100%;
+ 
+}
+.main video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading{
+  padding-top:50px;
+  font-size: 200px;
+  background:url(https://i.pinimg.com/564x/16/b3/ab/16b3ab57d13d117d46deedc02a08b77a.jpg) -10px -10px ;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: poppins-bold;
+}
+.intro{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  
+}
+.section2{
+  padding-top: 6.5vh;
+  color: white;
+  display: flex;
+  background-color: black;
+}
+.section3{
+  background-image: url("./assets/logo-qalf.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px;
+  display: flex;
+  padding-top:3vh;
+  color: white;
+  background-color: black;
+}
+.pics img{
+  height:700px ;
+}
+.title{
+  color: white;
+  -webkit-text-fill-color: black; 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-size: 60px;
+  height: 100%;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  min-width: 20px;
+  padding-top: 30px;
+
+}
+.Lead{
+  padding-top:200px;
+  padding-left:200px;
+  font-size: xx-large;
+  color: white;
+}
+.opening{
+  padding-top: 3vh;
+  padding-left: 2vw;
+  width: 40%;
+}
+.personalLogo {
+  text-align: center;
+  
+}
+.personalLogo img{
+  padding: 10vh;
+  border-radius: 150px;
+  height: 120px;
+}
+.Latest{
+  display: flex;
+ 
+}
+.titleStyle2{
+  color: black;
+  -webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 60px;
+  height: 100%;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  min-width: 20px;
+  padding-top: 30px;
+}
+.videoContainer{
+display: flex;
+width: 70%;
+background-color: white;
+}
+.videoContainer video{
+  border:  black solid;
+  margin-left: 5vw ;
+  margin-top: 10vw ;
+  padding: 1vw;
+  height: 60vh;
+}
+.laRue{
+  padding-top: 15%;
+  text-align: center;
+  width: 30%;
+  background-color: black;
+}
+.laRue img{
+  border: #ffffff solid 1px;
+  padding: 1vw;
+  margin-bottom: 4vh ;
+  height: 30vh;
+ 
+}
+
+.muteButtons{
+ margin-left:6vw;
+  text-align: center;
+}
+.muteButtons button {
+font-size: medium;
+font-family: poppins;
+margin: 1.5vw;
+padding-left: 1.5vw;
+padding-right: 1.5vw;
+border-radius: 20px;
+border: black solid 2px;
+background-color: white;
+}
+
+.muteButtons :active{
+color: white;
+border: white solid 2px;
+background-color: black;
+}
+.muteButtons :focus{
+  color: white;
+  border: white solid 2px;
+  background-color: black;
+  }
+.socials{
+  margin-left:50vw;
+  margin-top: 50vh;
+  display: flex;
+  text-align: center;
+}
+.social img{
+margin-left: 70%;
+height: 40px;
+
+}
+
+.links{
+  gap: 5vw;
+  display: flex;
+}
